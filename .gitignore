@@ -1,0 +1,28 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Flutter and Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
